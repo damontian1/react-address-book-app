@@ -21329,6 +21329,7 @@ module.exports = {
 	keepContact: function(contact){
 		this.firebaseRef = new Firebase("address-book-app-8ad80.firebaseio.com/contacts");
 		this.firebaseRef.push({contact: contact});
+		console.log(this.firebaseRef)
 	},
 	getContacts: function(){
 		this.firebaseRef = new Firebase("address-book-app-8ad80.firebaseio.com/contacts");
