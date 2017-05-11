@@ -6,7 +6,7 @@ var AddContacts = React.createClass({
 	render: function(){
 		return(
 			<div className="well">
-				<h3>Add Contacts</h3>
+				<h3>Contact Info</h3>
 				<form onSubmit={this.onSubmit}>
 					<div className="form-group" >
 						<input type="text" ref="name" className="form-control" placeholder="Enter Contact Name"/>
